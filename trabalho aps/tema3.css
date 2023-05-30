@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+}
+section .circle {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    position: relative;
+    color: #000000;
+    font-size: 1.8em;
+}
+header .nav {
+    position: relative;
+    display: flex;
+}
+header .nav li {
+    list-style: none;
+}
+header .nav li a {
+    display: inline-block;
+    color: #000000;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 60px;
+}
+header .nav  a:hover {
+    color: rgb(60, 255, 0);
+    transition: .3s;
+}
+.box {
+    width: 100%;
+    background: rgb(3, 177, 3);
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textbox {
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+.content .textbox h2 {
+    color: #000000;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+    font-weight: 900;
+}
+.content .textbox p {
+    color: #000000;
+    font-size: 1.5em;
+}
+.content .textbox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #000000;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .textbox a:hover {
+    color: rgb(48, 206, 8);
+    transition: .3s;
+}
+img {
+    border-radius: 20px;
+    padding-top: 0px;
+}
